@@ -7,10 +7,13 @@ import os
 x = np.linspace(0, 10, 100)
 
 # Definimos las funciones de membresía trapezoidales
-L = fuzz.trapmf(x, [0, 0, 0, 7])
-M = fuzz.trapmf(x, [0, 7, 7, 8])
-H = fuzz.trapmf(x, [6, 8, 8, 10])
-VH = fuzz.trapmf(x, [8, 10, 10, 10])
+x = np.arange(0, 11, 1)
+
+L = fuzz.trimf(x, [0, 0, 7])      # Left-skewed triangular
+M = fuzz.trimf(x, [0, 7, 8])      # Symmetrical triangular
+H = fuzz.trimf(x, [6, 8, 10])     # Symmetrical triangular
+VH = fuzz.trimf(x, [8, 10, 10])   # Right-skewed triangular
+
 
 # Graficamos
 plt.figure(figsize=(8, 5))

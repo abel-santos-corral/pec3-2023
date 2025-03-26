@@ -94,27 +94,51 @@ The graphical representation of Var A is:
 
 ![VarA image](data/output/variables_linguisticas/VarA.png "VarA")
 
+Función de pertenencia μ(L):
+
+μ(L) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0, \\\frac{7-x}{7} & \text{si } 0 < x \leq 7, \\0 & \text{si } x > 7.\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(M):
+
+μ(M) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0, \\\frac{x}{7} & \text{si } 0 < x \leq 7, \\ 8 - x & \text{si } 7 < x \leq 8, \\0 & \text{si } x > 8.\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(H):
+
+μ(H) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 6, \\\frac{x-6}{2} & \text{si } 0 < x \leq 1, \\\frac{10-x}{2} & \text{si } 8 < x \leq 10, \\0 & \text{si } x > 10.\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(VH):
+
+μ(VH) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 8, \\\frac{x-8}{2} & \text{si } 8 < x \leq 10, \\0 & \text{si } x > 10.\end{array}\right.$
+
+Tipo: Triangular
+
 ### Var B
 
-The graphical representation of Var B is:
+La representation grafical de Var B es:
 
 ![VarB image](data/output/variables_linguisticas/VarB.png "VarB")
 
 ### Var C
 
-The graphical representation of Var C is:
+La representation grafical de Var C es:
 
 ![VarC image](data/output/variables_linguisticas/VarC.png "VarC")
 
 ### Var C
 
-The graphical representation of Var D is:
+TLa representation grafical de Var D es:
 
 ![VarD image](data/output/variables_linguisticas/VarD.png "VarD")
 
 ### Out
 
-The graphical representation of Out is:
+La representation grafical de Out es:
 
 ![Out image](data/output/variables_linguisticas/Out.png "Out")
 

@@ -55,21 +55,21 @@ pip install -r requerimientos.txt
 
 En caso de querer hacerlo directamente: 
 
-´´´
+```
 pip install numpy matplotlib
 
-´´´
+```
 
 ### Ejecutar los programas
 
 Para ejecutar los programas usar las instrucciones de línea de comando:
 
-´´´
+```
 python3 vl_vara.py
 python3 vl_varb.py
 python3 vl_varc.py
 python3 vl_vard.py
-´´´
+```
 
 
 # PEC 3 Solucion

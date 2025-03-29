@@ -4,7 +4,7 @@ import skfuzzy as fuzz
 import os
 
 # Definimos el rango de Out
-x = np.linspace(0, 10, 100)
+x = np.linspace(0, 10, 101)
 
 # Definimos las funciones de membresía trapezoidales
 VL = fuzz.trapmf(x, [0, 0, 0, 1])

@@ -208,7 +208,35 @@ La representation grafical de Out es:
 
 ![Out image](data/output/variables_linguisticas/Out.png "Out")
 
+Función de pertenencia μ(VL):
 
+μ(VL) = $\left\{\begin{array}{ll} 1 - x & \text{si } 0 < x \leq 1 \\0 & \text{si } x > 1\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(L):
+
+μ(L) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0, \\\frac{x}{2} & \text{si } 0 < x \leq 2, \\ 3 - x & \text{si } 2 < x \leq 3, \\0 & \text{si } x > 3\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(M):
+
+μ(M) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 2 \\\frac{x-2}{2} & \text{si } 2 < x \leq 4 \\1 & \text{si } 4 < x \leq 5 \\6-x & \text{si } 5 < x \leq 6 \\0 & \text{si } x > 6\end{array}\right.$
+
+Tipo: Trapezoidal
+
+Función de pertenencia μ(H):
+
+μ(H) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 5, \\x-5 & \text{si } 5 < x \leq 6, \\ \frac{9-x}{3} & \text{si } 6 < x \leq 9, \\0 & \text{si } x > 9\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(VH):
+
+μ(VH) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 7 \\x-7 & \text{si } 7 < x \leq 8 \\1 & \text{si } x > 8\end{array}\right.$
+
+Tipo: R-Function
 
 ## Pregunta 2
 

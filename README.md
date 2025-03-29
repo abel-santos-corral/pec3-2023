@@ -96,25 +96,25 @@ The graphical representation of Var A is:
 
 Función de pertenencia μ(L):
 
-μ(L) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0, \\\frac{7-x}{7} & \text{si } 0 < x \leq 7, \\0 & \text{si } x > 7.\end{array}\right.$
+μ(L) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0, \\\frac{7-x}{7} & \text{si } 0 < x \leq 7, \\0 & \text{si } x > 7\end{array}\right.$
 
 Tipo: Triangular
 
 Función de pertenencia μ(M):
 
-μ(M) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0, \\\frac{x}{7} & \text{si } 0 < x \leq 7, \\ 8 - x & \text{si } 7 < x \leq 8, \\0 & \text{si } x > 8.\end{array}\right.$
+μ(M) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0, \\\frac{x}{7} & \text{si } 0 < x \leq 7, \\ 8 - x & \text{si } 7 < x \leq 8, \\0 & \text{si } x > 8\end{array}\right.$
 
 Tipo: Triangular
 
 Función de pertenencia μ(H):
 
-μ(H) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 6, \\\frac{x-6}{2} & \text{si } 0 < x \leq 1, \\\frac{10-x}{2} & \text{si } 8 < x \leq 10, \\0 & \text{si } x > 10.\end{array}\right.$
+μ(H) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 6, \\\frac{x-6}{2} & \text{si } 0 < x \leq 1, \\\frac{10-x}{2} & \text{si } 8 < x \leq 10, \\0 & \text{si } x > 10\end{array}\right.$
 
 Tipo: Triangular
 
 Función de pertenencia μ(VH):
 
-μ(VH) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 8, \\\frac{x-8}{2} & \text{si } 8 < x \leq 10, \\0 & \text{si } x > 10.\end{array}\right.$
+μ(VH) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 8, \\\frac{x-8}{2} & \text{si } 8 < x \leq 10, \\0 & \text{si } x > 10\end{array}\right.$
 
 Tipo: Triangular
 
@@ -124,17 +124,83 @@ La representation grafical de Var B es:
 
 ![VarB image](data/output/variables_linguisticas/VarB.png "VarB")
 
+Función de pertenencia μ(L):
+
+μ(L) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0 \\\frac{4-x}{4} & \text{si } 0 < x \leq 4 \\0 & \text{si } x > 4\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(M):
+
+μ(M) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 2 \\x - 2 & \text{si } 2 < x \leq 3 \\1 & \text{si } 3 < x \leq 7 \\\frac{9-x}{2} & \text{si } 7 < x \leq 9 \\0 & \text{si } x > 9\end{array}\right.$
+
+Tipo: Trapezoidal
+
+Función de pertenencia μ(H):
+
+μ(H) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 4 \\\frac{x-4}{4} & \text{si } 4 < x \leq 8 \\9-x & \text{si } 8 < x \leq 9 \\0 & \text{si } x > 9\end{array}\right.$
+
+Tipo: Triangular
+
 ### Var C
 
 La representation grafical de Var C es:
 
 ![VarC image](data/output/variables_linguisticas/VarC.png "VarC")
 
-### Var C
+Función de pertenencia μ(VL):
+
+μ(VL) = $\left\{\begin{array}{ll}1 & \text{si } x\leq 0.2 \\\frac{0.6-x}{0.4} & \text{si } 0.2 < x \leq 0.6 \\0 & \text{si } x > 0.6\end{array}\right.$
+
+Tipo: L-Function
+
+Función de pertenencia μ(L):
+
+μ(L) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0 \\\frac{x}{0.4} & \text{si } 0 < x \leq 0.4 \\1 & \text{si } 0.4 < x \leq 0.6 \\\frac{1.4-x}{0.8} & \text{si } 0.6 < x \leq 1.4 \\0 & \text{si } x > 1.4\end{array}\right.$
+
+Tipo: Trapezoidal
+
+Función de pertenencia μ(M):
+
+μ(M) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0.8 \\\frac{x-0.8}{0.2} & \text{si } 0.8 < x \leq 1.0 \\\frac{1.2 - x}{0.2} & \text{si } 1.0 < x \leq 1.2 \\0 & \text{si } x > 1.2\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(H):
+
+μ(H) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 0.6 \\\frac{x-0.6}{0.8} & \text{si } 0.6 < x \leq 1.4 \\1 & \text{si } 1.4 < x \leq 1.6 \\\frac{2.0-x}{0.4} & \text{si } 1.6 < x \leq 2.0 \\0 & \text{si } x > 2.0\end{array}\right.$
+
+Tipo: Trapezoidal
+
+Función de pertenencia μ(VH):
+
+μ(VH) = $\left\{\begin{array}{ll}0 & \text{si } x \leq 1.4 \\\frac{x-1.4}{0.4} & \text{si } 1.4 < x \leq 1.8 \\1 & \text{si } x > 1.8\end{array}\right.$
+
+Tipo: R-Function
+
+### Var D
 
 TLa representation grafical de Var D es:
 
 ![VarD image](data/output/variables_linguisticas/VarD.png "VarD")
+
+Función de pertenencia μ(L):
+
+μ(L) = $\left\{\begin{array}{ll} 1 - x & \text{si } 0 < x \leq 1 \\0 & \text{si } x > 1\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(M):
+
+μ(M) = $\left\{\begin{array}{ll}x & \text{si } 0 < x \leq 1 \\2-x & \text{si } 1 < x \leq 2\end{array}\right.$
+
+Tipo: Triangular
+
+Función de pertenencia μ(H):
+
+μ(H) = $\left\{\begin{array}{ll}x & \text{si } 0 < x \leq 1 \\1 & \text{si } x > 1\end{array}\right.$
+
+Tipo: R-Function
 
 ### Out
 
